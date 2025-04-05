@@ -9,7 +9,7 @@
         <div class="card-body">
           <%= form_with(model: @video, url: videos_path, local: true) do |f| %>
             <div class="form-group">
-              <%= f.label :title %>
+              <%= f.label :title %>  
               <%= f.text_field :title, class: 'form-control', required: true %>
             </div>
             
